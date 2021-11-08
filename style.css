@@ -46,9 +46,9 @@ li{
     margin-top: -10px;
     
 }
-#education{
+ /* #education{
     border-top: 1px solid;
-}
+}  */
 .fa{
     padding: 20px;
     font-size: 30px;
@@ -82,7 +82,7 @@ img{
     
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 480px){
 
     #about-me{
     float: left;
@@ -112,7 +112,7 @@ body{
     height: 100%;
 }
 #name{
-    font-size: x-large;
+    font-size: medium;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     
@@ -132,13 +132,20 @@ li{
     margin-top: -10px;
     
 }
-#education{
-    border-top: 1px solid;
+ /* #education{
+     border-top: 1px solid; 
+}  */
+#education2{
+    margin-left: 35%;
+    color: rgb(77, 63, 63);
+    margin-top: -20px;
+    max-width: 50%;
+    float: right;
 }
 .fa{
     padding: 20px;
     font-size: 30px;
-    width: 20px;
+    width: 10px;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
