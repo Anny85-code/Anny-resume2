@@ -82,7 +82,7 @@ img{
     
 }
 
-@media only screen and (min-width: 480px){
+@media only screen and (min-width: 400px){
 
     #about-me{
     float: left;
