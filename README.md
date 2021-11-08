@@ -1,2 +1,2 @@
 # Anny-resume2
-# check it out and asses
+# check it out and assess 
