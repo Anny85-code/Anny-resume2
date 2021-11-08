@@ -92,7 +92,7 @@ li{
     background: #041d53;
     color: white;
 }
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 321px){
     #about-me{
         float: left;
         
