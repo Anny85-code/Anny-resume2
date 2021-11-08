@@ -1,0 +1,183 @@
+#about-me{
+    float: left;
+    
+    width: 50%;
+    text-align: center;
+    padding: 5px 5px 0px 5px;
+    color: aliceblue;
+    height: 100%;
+    border-right: 1px solid;
+    border-color: black;
+    margin-right: 10px;
+    
+}
+
+body{
+    background-color: #98ad9b;
+}
+
+#about-me{
+    
+    
+    
+    text-align: center;
+    padding: 5px 5px 0px 5px;
+    color: rgb(38, 39, 41);
+    height: 100%;
+}
+#name{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+    color: rgb(77, 63, 63);
+    padding-right: 20px;
+    
+    
+}
+li{
+    list-style-type: none;
+    font-size: larger;
+    font-weight: bold;
+}
+#work-experience2{
+    margin-left: 45%;
+    color: rgb(77, 63, 63);
+    margin-top: -10px;
+    
+}
+#education{
+    border-top: 1px solid;
+}
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    bottom: 0;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background: #3b5998;
+    color: white;
+}
+.fa-twitter{
+    background: #55acee;
+    color: white;
+}
+.fa-linkedin{
+    background: #041d53;
+    color: white;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
+
+@media only screen and (min-width: 1200px) {
+    
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+#about-me{
+    float: left;
+    background-color: rgb(59, 58, 58);
+    width: 25%;
+    text-align: center;
+    padding: 5px 5px 0px 5px;
+    color: aliceblue;
+    height: 100%;
+    
+
+}
+#name{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 28%;
+    color: rgb(77, 63, 63);
+    border-bottom: 2px solid;
+}
+#contact-info{
+    float: right;
+    margin-right: 10px;
+    margin-top: -120px;
+}
+#work-experience1{
+    margin-left:26% ;
+    
+    color: rgb(77, 63, 63);
+}
+#work-experience2{
+    margin-left: 35%;
+    color: rgb(77, 63, 63);
+    margin-top: -250px;
+}
+li{
+    list-style-type: none;
+    font-size: larger;
+    font-weight: bold;
+}
+.work-experience{
+    border-bottom: 2px solid;
+}
+#education{
+    margin-left: 26%;
+    color: rgb(77, 63, 63);
+    text-align: left;
+}
+#education2{
+    margin-left: 35%;
+    color: rgb(77, 63, 63);
+    margin-top: -70px;
+}
+#skills{
+    margin-top: 3%;
+    margin-left: 28%;
+    color: rgb(77, 63, 63);
+    text-align: left;
+}
+#certification{
+    margin-left: 55%;
+    color: rgb(77, 63, 63);
+    margin-top: -235px;
+}
+.fa{
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    bottom: 0;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background: #3b5998;
+    color: white;
+}
+.fa-twitter{
+    background: #55acee;
+    color: white;
+}
+.fa-linkedin{
+    background: #041d53;
+    color: white;
+}
+}
