@@ -92,7 +92,7 @@ li{
     color: white;
 }
 
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 481px)and (max-width:768px){
 
     #about-me{
         float: left;
@@ -109,13 +109,14 @@ li{
         
     }
     
+    
     body{
         background-color: #98ad9b;
     }
     
     
     #name{
-        font-size: small;
+        font-size: large;
         font-weight: bold;
         font-family: 'Courier New', Courier, monospace;
         
@@ -141,19 +142,19 @@ li{
         font-weight: bold;
     }
     #work-experience1{
-        /* margin-left: 22%; */
+        
         float: right;
         color: rgb(77, 63, 63);
-        margin-top: -1080px;
+        margin-top: -900px;
         max-width: 50%;
-        /* float: right; */
+        
         margin-right: 4px;
         
     }
     #work-experience2{
         margin-left: 52%;
         color: rgb(77, 63, 63);
-        margin-top: -650px;
+        margin-top: -500px;
         max-width: 50%;
         float: right;
         margin-left: 2px;
