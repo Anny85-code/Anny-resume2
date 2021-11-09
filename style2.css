@@ -131,7 +131,7 @@ li{
     }
     #contact-info{
         max-width: 40%;
-        margin-top: -1400px;
+        margin-top: -1280px;
         margin-left: 22%;
         padding-left: 20px;
         float: right;
@@ -154,7 +154,7 @@ li{
     #work-experience2{
         margin-left: 52%;
         color: rgb(77, 63, 63);
-        margin-top: -500px;
+        margin-top: -400px;
         max-width: 50%;
         float: right;
         margin-left: 2px;
@@ -176,7 +176,7 @@ li{
         max-width: 50%;
     }
     #skills{
-        margin-top: -610%;
+        margin-top: -580%;
         margin-right: 20px;
         color: rgb(77, 63, 63);
         text-align: left;
