@@ -92,7 +92,8 @@ li{
     color: white;
 }
 
-@media only screen and (max-width: 600px) and (min-width: 320px){
+@media only screen and (max-width: 300px){
+
     #about-me{
         float: left;
         
@@ -114,7 +115,7 @@ li{
     
     
     #name{
-        font-size: large;
+        font-size: small;
         font-weight: bold;
         font-family: 'Courier New', Courier, monospace;
         
@@ -129,7 +130,7 @@ li{
     }
     #contact-info{
         max-width: 40%;
-        margin-top: -850px;
+        margin-top: -1400px;
         margin-left: 22%;
         padding-left: 20px;
         float: right;
@@ -139,30 +140,31 @@ li{
         font-size: larger;
         font-weight: bold;
     }
-    .work-experience{
-        margin-left: 22%;
+    #work-experience1{
+        /* margin-left: 22%; */
+        float: right;
         color: rgb(77, 63, 63);
-        margin-top: -1160px;
-        max-width: 40%;
+        margin-top: -1080px;
+        max-width: 50%;
         /* float: right; */
-        margin-right: -4px;
+        margin-right: 4px;
         
     }
-    /* #work-experience1{
+    #work-experience2{
         margin-left: 52%;
         color: rgb(77, 63, 63);
-        margin-top: -10px;
-        max-width: 60%;
+        margin-top: -650px;
+        max-width: 50%;
         float: right;
         margin-left: 2px;
         
-    } */
+    }
     #education{
-        margin-top: -10px;
+        margin-top: -80px;
         color: rgb(77, 63, 63);
         text-align: left;
         /* margin-left: -15%; */
-        max-width: 50%;
+        max-width: 30%;
         
     }
     #education2{
@@ -173,11 +175,12 @@ li{
         max-width: 50%;
     }
     #skills{
-        margin-top: -210%;
-        margin-left: 55%;
+        margin-top: -610%;
+        margin-right: 20px;
         color: rgb(77, 63, 63);
         text-align: left;
-        max-width: 50%;
+        max-width: 35%;
+        float: right;
     }
     #certification{
         margin-top: 5%;
