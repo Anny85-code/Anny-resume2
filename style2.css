@@ -1,3 +1,9 @@
+
+
+body{
+    margin: 0;
+    
+}
 img{
     height: 150px;
     width: 150px;
@@ -11,7 +17,8 @@ img{
     text-align: center;
     padding: 5px 5px 0px 5px;
     color: aliceblue;
-    height: 100%;
+    height: max-content;
+    margin: 0;
     
 
 }
@@ -92,9 +99,7 @@ li{
     color: white;
 }
 
-@media only screen and (max-width: 300px){
-
-
+@media only screen and (min-width: 270px)and (max-width:768px){
 
     #about-me{
         float: left;
@@ -111,13 +116,15 @@ li{
         
     }
     
+    
     body{
         background-color: #98ad9b;
+        margin: 0;
     }
     
     
     #name{
-        font-size: small;
+        font-size: large;
         font-weight: bold;
         font-family: 'Courier New', Courier, monospace;
         
@@ -132,7 +139,7 @@ li{
     }
     #contact-info{
         max-width: 40%;
-        margin-top: -1400px;
+        margin-top: -1280px;
         margin-left: 22%;
         padding-left: 20px;
         float: right;
@@ -143,19 +150,19 @@ li{
         font-weight: bold;
     }
     #work-experience1{
-        /* margin-left: 22%; */
+        
         float: right;
         color: rgb(77, 63, 63);
-        margin-top: -1080px;
+        margin-top: -900px;
         max-width: 50%;
-        /* float: right; */
+        
         margin-right: 4px;
         
     }
     #work-experience2{
         margin-left: 52%;
         color: rgb(77, 63, 63);
-        margin-top: -650px;
+        margin-top: -400px;
         max-width: 50%;
         float: right;
         margin-left: 2px;
@@ -177,7 +184,7 @@ li{
         max-width: 50%;
     }
     #skills{
-        margin-top: -610%;
+        margin-top: -580%;
         margin-right: 20px;
         color: rgb(77, 63, 63);
         text-align: left;
