@@ -99,7 +99,7 @@ li{
     color: white;
 }
 
-@media only screen and (min-width: 270px)and (max-width:768px){
+@media only screen and (min-width: 320px)and (max-width:768px){
 
     #about-me{
         float: left;
@@ -139,7 +139,7 @@ li{
     }
     #contact-info{
         max-width: 40%;
-        margin-top: -1280px;
+        margin-top: -1250px;
         margin-left: 22%;
         padding-left: 20px;
         float: right;
@@ -184,7 +184,7 @@ li{
         max-width: 50%;
     }
     #skills{
-        margin-top: -580%;
+        margin-top: -550%;
         margin-right: 20px;
         color: rgb(77, 63, 63);
         text-align: left;
